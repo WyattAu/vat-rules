@@ -1,0 +1,17 @@
+[package]
+name = "vat-rules"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Tax categories, exemption codes and rounding regimes shared by the AR and AP sides of an accounting ledger"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/WyattAu/vat-rules"
+keywords = ["vat", "accounting", "en16931", "peppol", "tax"]
+categories = ["finance", "data-structures"]
+exclude = ["/target"]
+
+[lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+indexing_slicing = "deny"
+panic = "deny"
