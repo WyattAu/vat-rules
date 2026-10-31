@@ -1,7 +1,7 @@
 # Changelog
 
 All notable changes to this project are documented here. Format: [Keep a
-Changelog](https://keepachangelog.com/) — versions follow [semver](https://semver.org).
+Changelog](https://keepachangelog.com/); versions follow [semver](https://semver.org).
 
 ## [Unreleased]
 
@@ -18,5 +18,5 @@ imports the same table rather than re-deriving it.
 - `RoundingPolicy` for the four mutually incompatible regimes, and `TieMode` for
   the tie direction they each mandate.
 - `DocumentReference`, whose `is_unambiguous` encodes Article 219's "specifically
-  and unambiguously" — parallel numbering series are permitted, so a bare number
+  and unambiguously"; parallel numbering series are permitted, so a bare number
   does not identify a document.
